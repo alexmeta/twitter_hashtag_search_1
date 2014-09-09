@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
     function get_url_contents($url){
         $crl = curl_init();
         $timeout = 5;
